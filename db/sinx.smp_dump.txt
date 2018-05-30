@@ -1,0 +1,10 @@
+
+State Machine - |sinx|Controller:inst|ps
+Name ps.Div ps.Mul2 ps.Mul1 ps.CalSin ps.init ps.starting ps.idle 
+ps.idle 0 0 0 0 0 0 0 
+ps.starting 0 0 0 0 0 1 1 
+ps.init 0 0 0 0 1 0 1 
+ps.CalSin 0 0 0 1 0 0 1 
+ps.Mul1 0 0 1 0 0 0 1 
+ps.Mul2 0 1 0 0 0 0 1 
+ps.Div 1 0 0 0 0 0 1 

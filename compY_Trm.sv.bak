@@ -1,0 +1,7 @@
+`timescale 1ns/1ns
+
+module compY_Trm (output less, input[15:0] Y, Trm);
+  assign less = Trm < Y;
+endmodule 
+
+

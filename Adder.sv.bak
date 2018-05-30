@@ -1,0 +1,5 @@
+`timescale 1ns/1ns 
+
+module Adder (output [15:0]add, input[15:0] A, B);
+assign add = A + B;
+endmodule
